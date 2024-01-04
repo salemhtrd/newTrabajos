@@ -1,0 +1,204 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: auto;
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+}
+
+.titulo span {
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 200px; /* Espaciado entre las opciones */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+.btn-login{
+    background-color: #fff; /* Fondo blanco */
+    color: #333; /* Texto naranja */
+    border: 2px solid #333; /* Contorno naranja */
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+
+.btn-register{
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+
+/* Resto de tus estilos CSS */
+
+
+/* Estilos para la sección de descripción */
+.descripcion {
+    background: #016241;
+    text-align: center;
+    padding: 20px;
+}
+
+.descripcion h1 {
+    font-size: 28px;
+    color: #fff;
+}
+
+.descripcion p {
+    font-size: 16px;
+    color: #fff;
+}
+
+.learn-more {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+}
+
+.productos {
+    display: auto;
+    justify-content: space-between;
+    background-color: #ff0000; /* Fondo rojo */
+    padding: 20px;
+    color: #ffffff; /* Texto blanco */
+}
+
+.producto, .productose {
+    display: flex;
+    align-items: center;
+    width: 45%;
+    text-align: center;
+}
+
+.producto img, .productose img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.producto .texto, .productose .texto {
+    margin: 200px;
+}
+
+.producto h1, .productose h1 {
+    font-size: 30px; /* Tamaño grande del título */
+    margin: 10px;
+}
+
+.producto button, .productose button {
+    background-color: #ff0000; /* Fondo rojo */
+    color: #ffffff; /* Texto blanco */
+    border: 2px solid #ffffff; /* Contorno blanco */
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px; /* Esquinas redondeadas */
+    transition: background-color 0.3s ease; /* Transición suave en el cambio de color de fondo */
+}
+
+.producto button:hover, .productose button:hover {
+    background-color: #ffffff; /* Fondo blanco al pasar el mouse */
+    color: #ff0000; /* Texto rojo al pasar el mouse */
+}
+
+
+
+/* Estilos para la sección de productos 
+.productos {
+    display: flex;
+    flex-direction: column; /* Cambiar la dirección del flujo a vertical *
+    align-items: center; /* Centrar los elementos horizontalmente *
+    padding: 20px;
+}
+
+.producto, .productose {
+    background-color: #d40032; /* Fondo blanco *
+    text-align: center; /* Alineación del texto al centro *
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 45%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Espaciado entre los productos 
+}*/
+
+/*.producto img, .productose img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Estilos para el texto y botón en la sección de productos *
+.producto h1, .productose h1 {
+    font-size: 40px;
+    color: #fff; /* Texto negro *
+}
+
+.producto p, .productose p {
+    font-size: 16px;
+    color: #fff;
+}
+
+.producto button, .productose button {
+    background-color: #d40032; /* Botón rojo *
+    color: white; * Texto blanco *
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}*/
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.redes-sociales img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
